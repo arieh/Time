@@ -13,7 +13,11 @@
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js'></script>
 <script type='text/javascript' src='../Source/Number.Time.js'></script>
 <script type='text/javascript'>
-	var some_var = new Number.Time();
+    var time = new Number.Time(20);
+    console.log('20 days from now',time.days().from_now());
+    console.log('20 months from now',time.months().from_now());
+    console.log('20 days ago',time.days().ago());
+    console.log('20 moths ago',time.months().ago()); 
 </script>
 </body>
 </html>
