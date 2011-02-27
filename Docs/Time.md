@@ -12,8 +12,9 @@ Time Method: constructor {#Time:constructor}
  2. date - `Date` - optional - a point of origin to count the ranges from. Default is current date
 
 
-Time Method Ranges: {#Time:Ranges}
-----------------    
+Time Method: Ranges {#Time:Ranges}
+------------------------
+
 The range setters set the current range type you want to use. 
 The Time class supplies 7 range setters you can specify from the origin date:
 
@@ -46,7 +47,8 @@ Returns a new date in the future, using the previously supplied paramaters
 
     time.weeks().from_now();//20 weeks from now
 
-Time Method ago {#Time:ago}
+
+Time Method: ago {#Time:ago}
 ------------------------------------
 Return a new date in the past, using the previously supplied paramaters 
 
