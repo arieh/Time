@@ -36,7 +36,7 @@ The Time class supplies 7 range setters you can specify from the origin date:
  
  1. number -`Number` - optional - if supplied will be used as the range counter
 
-Time Method from_now {#Time:from_now}
+Time Method: from_now {#Time:from_now}
 ------------------------------------
 Returns a new date in the future, using the previously supplied paramaters
 
